@@ -1,18 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
 
 namespace Rooms_Booking.Models
 {
-    public class Customer
+    public class ApplicationUser : IdentityUser<int>
     {
-        [Key]
-        public int ID { get; set; }
         public string? Name { get; set; }
         public string? Address { get; set; }
         public string? City { get; set; }
         public int NID { get; set; }
-        public string? PhoneNumber { get; set; }
-        public Boolean Booked { get; set; }
-
+        public override string? PhoneNumber { get; set; }
+        public Boolean BookedBefore { get; set; }
         public ICollection<Booking>? Bookings { get; set; } = new HashSet<Booking>();
     }
 }
