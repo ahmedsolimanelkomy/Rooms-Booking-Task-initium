@@ -16,6 +16,7 @@ namespace Rooms_Booking.Models
 
         public Booking? Booking { get; set; }
         public RoomType? RoomType { get; set; }
+        public HotelBranch? HotelBranch { get; set; }
 
     }
 }

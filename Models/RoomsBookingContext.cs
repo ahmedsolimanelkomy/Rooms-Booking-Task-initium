@@ -11,7 +11,7 @@ namespace Rooms_Booking.Models
         public DbSet<Room>? Rooms { get; set; }
         public DbSet<RoomType>? RoomTypes { get; set; }
 
-        public RoomsBookingContext()
+        public RoomsBookingContext(DbContextOptions<RoomsBookingContext> Options):base(Options)
         {
             
         }

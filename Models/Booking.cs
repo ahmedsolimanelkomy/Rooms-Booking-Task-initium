@@ -11,12 +11,12 @@ namespace Rooms_Booking.Models
         public DateTime CheckOutDate { get; set; }
         public int TotalRooms { get; set; }
         public Boolean DiscountApplied { get; set; }
-        [ForeignKey("Customer")]
-        public int CustomerID { get; set; }
+        [ForeignKey("ApplicationUser")]
+        public int ApplicationUserID { get; set; }
         [ForeignKey("HotelBranch")]
         public int HotelBranchID { get; set; }
 
-        public Customer? Customer { get; set; }
+        public ApplicationUser? ApplicationUser { get; set; }
         public HotelBranch? HotelBranch { get; set; }
         public ICollection<Room>? Rooms { get; set; } = new HashSet<Room>();
 

@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using Rooms_Booking.IRepository;
+using Rooms_Booking.Models;
+using Rooms_Booking.Repository;
+
 namespace Rooms_Booking
 {
     public class Program
@@ -8,6 +13,20 @@ namespace Rooms_Booking
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<RoomsBookingContext>(
+                options => {
+                    options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
+                });
+
+            builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
+                .AddEntityFrameworkStores<RoomsBookingContext>();
+
+            builder.Services.AddSession(
+               options =>
+               {
+                   options.IdleTimeout = TimeSpan.FromMinutes(30);
+               });
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             var app = builder.Build();
 
@@ -19,7 +38,8 @@ namespace Rooms_Booking
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseSession();
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
