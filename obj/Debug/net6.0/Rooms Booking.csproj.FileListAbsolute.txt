@@ -1,0 +1,31 @@
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\bin\Debug\net6.0\appsettings.json
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\bin\Debug\net6.0\Rooms Booking.staticwebassets.runtime.json
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\bin\Debug\net6.0\Rooms Booking.exe
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\bin\Debug\net6.0\Rooms Booking.deps.json
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\bin\Debug\net6.0\Rooms Booking.runtimeconfig.json
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\bin\Debug\net6.0\Rooms Booking.dll
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\bin\Debug\net6.0\Rooms Booking.pdb
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\Rooms Booking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\Rooms Booking.AssemblyInfoInputs.cache
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\Rooms Booking.AssemblyInfo.cs
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\Rooms Booking.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\Rooms Booking.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\Rooms Booking.RazorAssemblyInfo.cache
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\Rooms Booking.RazorAssemblyInfo.cs
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\Rooms Booking.sourcelink.json
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\staticwebassets\msbuild.Rooms Booking.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\staticwebassets\msbuild.build.Rooms Booking.props
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Rooms Booking.props
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Rooms Booking.props
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\scopedcss\bundle\Rooms Booking.styles.css
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\scopedcss\projectbundle\Rooms Booking.bundle.scp.css
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\Rooms Booking.dll
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\refint\Rooms Booking.dll
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\Rooms Booking.pdb
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\Rooms Booking.genruntimeconfig.cache
+C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\obj\Debug\net6.0\ref\Rooms Booking.dll
