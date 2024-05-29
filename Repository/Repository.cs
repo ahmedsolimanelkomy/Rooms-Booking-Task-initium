@@ -24,7 +24,7 @@ namespace Rooms_Booking.Repository
             _dbSet.Add(entity);
         }
 
-        public T Get(Expression<Func<T, bool>> Filter, string? IncludeProps = null)
+        public T GetById(Expression<Func<T, bool>> Filter, string? IncludeProps = null)
         {
             IQueryable<T>? Query = _dbSet;
             if (IncludeProps != null)

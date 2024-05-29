@@ -6,6 +6,8 @@
         IHotelBranchRepository HotelBranchRepository { get; }
         IRoomRepository RoomRepository { get; }
         IRoomTypeRepository RoomTypeRepository { get; }
+        ICustomerRepository CustomerRepository { get; }
+        Task<int> SaveAsync();
 
     }
 }

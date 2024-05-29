@@ -9,63 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Rooms_Booking
 build_property.RootNamespace = Rooms_Booking
-build_property.ProjectDir = C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking\
+build_property.ProjectDir = C:\Users\ahmed\Desktop\Initium Solutions\Task\New folder\Rooms Booking\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ahmed\Desktop\Initium Solutions\Task\Rooms Booking
+build_property.MSBuildProjectDirectory = C:\Users\ahmed\Desktop\Initium Solutions\Task\New folder\Rooms Booking
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ahmed/Desktop/Initium Solutions/Task/Rooms Booking/Views/Account/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+[C:/Users/ahmed/Desktop/Initium Solutions/Task/New folder/Rooms Booking/Views/Booking/BookingList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xCb29raW5nTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmed/Desktop/Initium Solutions/Task/Rooms Booking/Views/Booking/Create.cshtml]
+[C:/Users/ahmed/Desktop/Initium Solutions/Task/New folder/Rooms Booking/Views/Booking/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmed/Desktop/Initium Solutions/Task/Rooms Booking/Views/Booking/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmed/Desktop/Initium Solutions/Task/Rooms Booking/Views/Booking/Details.cshtml]
+[C:/Users/ahmed/Desktop/Initium Solutions/Task/New folder/Rooms Booking/Views/Booking/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmed/Desktop/Initium Solutions/Task/Rooms Booking/Views/Booking/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmed/Desktop/Initium Solutions/Task/Rooms Booking/Views/Booking/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmed/Desktop/Initium Solutions/Task/Rooms Booking/Views/Home/Index.cshtml]
+[C:/Users/ahmed/Desktop/Initium Solutions/Task/New folder/Rooms Booking/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmed/Desktop/Initium Solutions/Task/Rooms Booking/Views/Home/Privacy.cshtml]
+[C:/Users/ahmed/Desktop/Initium Solutions/Task/New folder/Rooms Booking/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmed/Desktop/Initium Solutions/Task/Rooms Booking/Views/Shared/Error.cshtml]
+[C:/Users/ahmed/Desktop/Initium Solutions/Task/New folder/Rooms Booking/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmed/Desktop/Initium Solutions/Task/Rooms Booking/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ahmed/Desktop/Initium Solutions/Task/New folder/Rooms Booking/Views/Shared/_SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed/Desktop/Initium Solutions/Task/New folder/Rooms Booking/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmed/Desktop/Initium Solutions/Task/Rooms Booking/Views/_ViewImports.cshtml]
+[C:/Users/ahmed/Desktop/Initium Solutions/Task/New folder/Rooms Booking/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmed/Desktop/Initium Solutions/Task/Rooms Booking/Views/_ViewStart.cshtml]
+[C:/Users/ahmed/Desktop/Initium Solutions/Task/New folder/Rooms Booking/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmed/Desktop/Initium Solutions/Task/Rooms Booking/Views/Shared/_Layout.cshtml]
+[C:/Users/ahmed/Desktop/Initium Solutions/Task/New folder/Rooms Booking/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hf4jbxsqtw

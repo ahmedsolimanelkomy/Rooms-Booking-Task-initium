@@ -1,4 +1,5 @@
-﻿using Rooms_Booking.IRepository;
+﻿using Microsoft.EntityFrameworkCore;
+using Rooms_Booking.IRepository;
 using Rooms_Booking.Models;
 
 namespace Rooms_Booking.Repository
@@ -12,6 +13,7 @@ namespace Rooms_Booking.Repository
         public IRoomRepository RoomRepository { get; private set; }
 
         public IRoomTypeRepository RoomTypeRepository { get; private set; }
+        public ICustomerRepository CustomerRepository { get; private set; }
 
         RoomsBookingContext _DbContext;
         public UnitOfWork(RoomsBookingContext DbContext)
@@ -21,6 +23,17 @@ namespace Rooms_Booking.Repository
             HotelBranchRepository = new HotelBranchRepository(_DbContext);
             RoomRepository = new RoomRepository(_DbContext);
             RoomTypeRepository = new RoomTypeRepository(_DbContext);
+            CustomerRepository = new CustomerRepository(_DbContext);
+        }
+
+        public async Task<int> SaveAsync()
+        {
+            return await _DbContext.SaveChangesAsync();
+        }
+
+        public void Dispose()
+        {
+            _DbContext.Dispose();
         }
     }
 }

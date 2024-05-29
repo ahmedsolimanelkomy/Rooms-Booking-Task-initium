@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wRloN4C1m0B7NMEbVZ+eI88wMQLepZG0RH8mQHqRWqbqzBqJkJnYVw5TIaiDMLxIRZ2a2e13V5RsRQ6SY2xANA==",
+  "dgSpecHash": "Htkkila1+RJpC9Jo9RvcqSjutEp9D5VS28qD0hxTyNaq/a5axUTnoFROn1F1BcfYfhHxRmnnPQbwDl6fm3EcnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\Rooms Booking\\Rooms Booking.csproj",
+  "projectFilePath": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Rooms Booking.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ahmed\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

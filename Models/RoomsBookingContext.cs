@@ -2,10 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 namespace Rooms_Booking.Models
 {
-    public class RoomsBookingContext : IdentityDbContext<ApplicationUser, ApplicationRole, int>
+    public class RoomsBookingContext : DbContext
     {
-        public DbSet<ApplicationUser>? applicationUsers { get; set; }
-        public DbSet<ApplicationRole>? applicationRole { get; set; }
         public DbSet<Booking>? Bookings { get; set; }
         public DbSet<HotelBranch>? HotelBranches { get; set; }
         public DbSet<Room>? Rooms { get; set; }
@@ -24,6 +22,7 @@ namespace Rooms_Booking.Models
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+            
         }
     }
 }
