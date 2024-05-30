@@ -1,5 +1,5 @@
 ﻿@model ICollection<Rooms_Booking.ViewModels.BookingViewModels.BookingListViewModel>
-<h2 class="text-center">Booking List</h2>
+<h2 class="text-center my-4">Booking List</h2>
 <table class="table table-striped table-bordered table-rounded">
 
     <thead>
@@ -30,7 +30,10 @@
                 <td>@item.BranchName</td>
                 <td>@item.Location</td>
 
-                <td>@Html.ActionLink("Details","Details",new {id = item.BookingID})</td>
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = item.BookingID }, new { @class = "btn btn-primary" })
+                </td>
+
             </tr>
         }
     </tbody>

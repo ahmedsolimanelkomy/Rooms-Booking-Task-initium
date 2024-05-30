@@ -4,77 +4,105 @@
     ViewData["Title"] = "Create Booking";
 }
 
-<h1>Create Booking</h1>
+<h2 class="text-center my-2">Create Booking</h2>
+<div class="container">
+    <form asp-action="Create" method="post" class="w-75 m-auto">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-<form asp-action="Create" method="post">
-    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-    <div class="form-group">
-        <label asp-for="Name" class="control-label"></label>
-        <input asp-for="Name" class="form-control" />
-        <span asp-validation-for="Name" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="NationalID" class="control-label"></label>
-        <input asp-for="NationalID" class="form-control" />
-        <span asp-validation-for="NationalID" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="PhoneNumber" class="control-label"></label>
-        <input asp-for="PhoneNumber" class="form-control" />
-        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="HotelBranch" class="control-label"></label>
-        <select asp-for="HotelBranch" class="form-control">
-            @foreach (var branch in Model.HotelBranches)
-            {
-                <option value="@branch.ID">@branch.Name</option>
-            }
-        </select>
-        <span asp-validation-for="HotelBranch" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="CheckInDate" class="control-label"></label>
-        <input asp-for="CheckInDate" class="form-control" />
-        <span asp-validation-for="CheckInDate" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="CheckOutDate" class="control-label"></label>
-        <input asp-for="CheckOutDate" class="form-control" />
-        <span asp-validation-for="CheckOutDate" class="text-danger"></span>
-    </div>
-    <div id="roomsContainer">
-        @for (int i = 0; i < Model.Rooms.Count; i++)
-        {
-            <div class="room">
-                <h4>Room @(i + 1)</h4>
-                <div class="form-group">
-                    <label asp-for="Rooms[@i].RoomType" class="control-label"></label>
-                    <select asp-for="Rooms[@i].RoomType" class="form-control">
-                        @foreach (var roomType in Model.RoomTypes)
-                        {
-                            <option value="@roomType">@roomType.TypeName</option>
-                        }
-                    </select>
-                    <span asp-validation-for="Rooms[@i].RoomTypeID" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Rooms[@i].NumberOfAdults" class="control-label"></label>
-                    <input asp-for="Rooms[@i].NumberOfAdults" class="form-control" type="number" />
-                    <span asp-validation-for="Rooms[@i].NumberOfAdults" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Rooms[@i].NumberOfChildren" class="control-label"></label>
-                    <input asp-for="Rooms[@i].NumberOfChildren" class="form-control" type="number"/>
-                    <span asp-validation-for="Rooms[@i].NumberOfChildren" class="text-danger"></span>
-                </div>
+        <div class="form-group row mb-2">
+            <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
             </div>
-        }
-    </div>
+        </div>
 
-    <button type="button" id="addRoomButton" class="btn btn-secondary">Add Room</button>
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+        <div class="form-group row mb-2">
+            <label asp-for="NationalID" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="NationalID" class="form-control" />
+                <span asp-validation-for="NationalID" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row mb-2">
+            <label asp-for="PhoneNumber" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row mb-2">
+            <label asp-for="HotelBranch" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <select asp-for="HotelBranch" class="form-control">
+                    @foreach (var branch in Model.HotelBranches)
+                    {
+                        <option value="@branch.ID">@branch.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="HotelBranch" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row mb-2">
+            <label asp-for="CheckInDate" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="CheckInDate" class="form-control" />
+                <span asp-validation-for="CheckInDate" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row mb-2">
+            <label asp-for="CheckOutDate" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="CheckOutDate" class="form-control" />
+                <span asp-validation-for="CheckOutDate" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div id="roomsContainer">
+            @for (int i = 0; i < Model.Rooms.Count; i++)
+            {
+                <div class="room mb-4">
+                    <h4>Room @(i + 1)</h4>
+                    <div class="form-group row mb-2">
+                        <label asp-for="Rooms[@i].RoomType" class="col-sm-2 col-form-label"></label>
+                        <div class="col-sm-10">
+                            <select asp-for="Rooms[@i].RoomType" class="form-control">
+                                @foreach (var roomType in Model.RoomTypes)
+                                {
+                                    <option value="@roomType">@roomType.TypeName</option>
+                                }
+                            </select>
+                            <span asp-validation-for="Rooms[@i].RoomTypeID" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row mb-2">
+                        <label asp-for="Rooms[@i].NumberOfAdults" class="col-sm-2 col-form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Rooms[@i].NumberOfAdults" class="form-control" type="number" />
+                            <span asp-validation-for="Rooms[@i].NumberOfAdults" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row mb-2">
+                        <label asp-for="Rooms[@i].NumberOfChildren" class="col-sm-2 col-form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Rooms[@i].NumberOfChildren" class="form-control" type="number" />
+                            <span asp-validation-for="Rooms[@i].NumberOfChildren" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="d-flex justify-content-end my-3">
+            <button type="button" id="addRoomButton" class="btn btn-secondary me-2">Add Room</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
@@ -86,23 +114,31 @@
                 var newRoomHtml = `
                             <div class="room">
                                 <h4>Room ${roomIndex + 1}</h4>
-                                <div class="form-group">
-                                    <label for="Rooms_${roomIndex}__RoomType" class="control-label">Room Type</label>
-                                    <select id="Rooms_${roomIndex}__RoomType" name="Rooms[${roomIndex}].RoomType" class="form-control">
+                                                                        <div class="form-group row mb-2">
+
+                                         
+                                                                        <label for="Rooms_${roomIndex}__RoomType" class="col-sm-2 col-form-label">Room Type</label>
+                                            <div class="col-sm-10">
+                                                                        <select id="Rooms_${roomIndex}__RoomType" name="Rooms[${roomIndex}].RoomType" class="form-control">
                                         @foreach (var roomType in Model.RoomTypes)
                                         {
                                             <option value="@roomType">@roomType.TypeName</option>
                                         }
                                     </select>
+                                    </div>
                                     <span asp-validation-for="roomType.RoomType" class="text-danger"></span>
                                 </div>
-                                <div class="form-group">
-                                    <label for="Rooms_${roomIndex}__NumberOfAdults" class="control-label">Number Of Adults</label>
-                                    <input id="Rooms_${roomIndex}__NumberOfAdults" name="Rooms[${roomIndex}].NumberOfAdults" class="form-control" type="number" />
+                                <div class="form-group row mb-2">
+                                            <label for="Rooms_${roomIndex}__NumberOfAdults" class="col-sm-2 col-form-label">Number Of Adults</label>
+                                             <div class="col-sm-10">
+                                            <input id="Rooms_${roomIndex}__NumberOfAdults" name="Rooms[${roomIndex}].NumberOfAdults" class="form-control" type="number" />
+                               </div>
+                                            </div>
+                                <div class="form-group row mb-2">
+                                            <label for="Rooms_${roomIndex}__NumberOfChildren" class="col-sm-2 col-form-label">Number Of Children</label>
+                                             <div class="col-sm-10">
+                                            <input id="Rooms_${roomIndex}__NumberOfChildren" name="Rooms[${roomIndex}].NumberOfChildren" class="form-control" type="number" />
                                 </div>
-                                <div class="form-group">
-                                    <label for="Rooms_${roomIndex}__NumberOfChildren" class="control-label">Number Of Children</label>
-                                    <input id="Rooms_${roomIndex}__NumberOfChildren" name="Rooms[${roomIndex}].NumberOfChildren" class="form-control" type="number" />
                                 </div>
                             </div>
                         `;

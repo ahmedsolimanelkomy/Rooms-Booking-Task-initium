@@ -4,92 +4,100 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
 
-<div>
-    <h4>BookingDetailsViewModel</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CustomerName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CustomerName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Address)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Address)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.City)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.City)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NationalID)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NationalID)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PhoneNumber)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PhoneNumber)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.HasBookedPreviously)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.HasBookedPreviously)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CheckInDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CheckInDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CheckOutDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CheckOutDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NumberOfRooms)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NumberOfRooms)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Discount)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Discount)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DiscountApplied)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DiscountApplied)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.BranchName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.BranchName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Location)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Location)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="GetBookings">Back to List</a>
+<h2 class="text-center">Booking Details</h2>
+
+<div class="container mt-4">
+    <div class="card w-75 mb-3 shadow-sm border-primary m-auto">
+        <div class="card-header bg-primary text-white">
+            Booking Information
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-lg-6">
+                    @Html.DisplayNameFor(model => model.CustomerName)
+                </dt>
+                <dd class="col-lg-6">
+                    @Html.DisplayFor(model => model.CustomerName)
+                </dd>
+                <dt class="col-lg-6">
+                    @Html.DisplayNameFor(model => model.NationalID)
+                </dt>
+                <dd class="col-lg-6">
+                    @Html.DisplayFor(model => model.NationalID)
+                </dd>
+
+                <dt class="col-lg-6">
+                    @Html.DisplayNameFor(model => model.PhoneNumber)
+                </dt>
+                <dd class="col-lg-6">
+                    @Html.DisplayFor(model => model.PhoneNumber)
+                </dd>
+
+                <dt class="col-lg-6">
+                    @Html.DisplayNameFor(model => model.HasBookedPreviously)
+                </dt>
+                <dd class="col-lg-6">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" disabled @(Model.HasBookedPreviously ? "checked" : "") />
+                    </div>
+                </dd>
+
+                <dt class="col-lg-6">
+                    @Html.DisplayNameFor(model => model.CheckInDate)
+                </dt>
+                <dd class="col-lg-6">
+                    @Html.DisplayFor(model => model.CheckInDate)
+                </dd>
+
+                <dt class="col-lg-6">
+                    @Html.DisplayNameFor(model => model.CheckOutDate)
+                </dt>
+                <dd class="col-lg-6">
+                    @Html.DisplayFor(model => model.CheckOutDate)
+                </dd>
+
+                <dt class="col-lg-6">
+                    @Html.DisplayNameFor(model => model.NumberOfRooms)
+                </dt>
+                <dd class="col-lg-6">
+                    @Html.DisplayFor(model => model.NumberOfRooms)
+                </dd>
+
+                <dt class="col-lg-6">
+                    @Html.DisplayNameFor(model => model.Discount)
+                </dt>
+                <dd class="col-lg-6">
+                    @Html.DisplayFor(model => model.Discount)
+                </dd>
+
+                <dt class="col-lg-6">
+                    @Html.DisplayNameFor(model => model.DiscountApplied)
+                </dt>
+                <dd class="col-lg-6">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" disabled @(Model.DiscountApplied ? "checked" : "") />
+                        
+                    </div>
+                </dd>
+
+                <dt class="col-lg-6">
+                    @Html.DisplayNameFor(model => model.BranchName)
+                </dt>
+                <dd class="col-lg-6">
+                    @Html.DisplayFor(model => model.BranchName)
+                </dd>
+
+                <dt class="col-lg-6">
+                    @Html.DisplayNameFor(model => model.Location)
+                </dt>
+                <dd class="col-lg-6">
+                    @Html.DisplayFor(model => model.Location)
+                </dd>
+            </dl>
+        </div>
+        <div class="card-footer text-muted d-flex justify-content-end">
+            <a asp-action="GetBookings" class="btn btn-primary">Back to List</a>
+        </div>
+    </div>
 </div>
