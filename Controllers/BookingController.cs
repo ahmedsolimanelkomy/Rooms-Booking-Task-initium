@@ -61,7 +61,7 @@ namespace Rooms_Booking.Controllers
                         {
                             Name = bookingData.Name,
                             NID = bookingData.NationalID,
-                            PhoneNumber = bookingData.PhoneNumber
+                            PhoneNumber = bookingData.PhoneNumber,
                         };
                         unitOfWork.CustomerRepository.Add(customer);
                         unitOfWork.CustomerRepository.Save();
@@ -72,7 +72,7 @@ namespace Rooms_Booking.Controllers
                         CustomerID = customer.Id,
                         CheckInDate = bookingData.CheckInDate,
                         CheckOutDate = bookingData.CheckOutDate,
-                        NumberOfRooms = bookingData.Rooms.Count
+                        NumberOfRooms = bookingData.Rooms.Count,
                     };
 
                     int hotelBranchID;
@@ -82,7 +82,6 @@ namespace Rooms_Booking.Controllers
                     }
                     else
                     {
-                        // Handle parsing failure, e.g., set a default value or show an error message
                         ModelState.AddModelError("HotelBranch", "Invalid hotel branch ID.");
                         bookingData.HotelBranches = unitOfWork.HotelBranchRepository.GetAll().ToList();
                         bookingData.RoomTypes = unitOfWork.RoomTypeRepository.GetAll().ToList();
@@ -91,8 +90,12 @@ namespace Rooms_Booking.Controllers
 
                     if (customer.HasBookedPreviously)
                     {
-                        booking.Discount = 0.05m;
+                        booking.Discount = 5;
                         booking.DiscountApplied = true;
+                    }
+                    else
+                    {
+                        customer.HasBookedPreviously = true;
                     }
 
                     foreach (var roomData in bookingData.Rooms)
@@ -100,7 +103,7 @@ namespace Rooms_Booking.Controllers
                         RoomType roomType = unitOfWork.RoomTypeRepository.GetById(t => t.TypeName == roomData.RoomType);
                         var room = new Room
                         {
-                            RoomTypeID = int.TryParse(roomData.RoomType, out int roomTypeID) ? roomTypeID : 1, // Set default value or handle parsing failure
+                            RoomTypeID = int.TryParse(roomData.RoomType, out int roomTypeID) ? roomTypeID : 1,
                             NumberOfAdults = roomData.NumberOfAdults,
                             NumberOfChilderns = roomData.NumberOfChildren,
                             HotelBranchID = hotelBranchID,                            
@@ -119,11 +122,9 @@ namespace Rooms_Booking.Controllers
             }
             catch (DbUpdateException ex)
             {
-                // Log and handle the exception
             }
             catch (Exception ex)
             {
-                // Log and handle the exception
             }
 
             return View(bookingData);

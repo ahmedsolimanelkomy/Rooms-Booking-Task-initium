@@ -12,7 +12,6 @@
             <th>Discount Applied</th>
             <th>Branch Name</th>
             <th>Location</th>
-
             <th>Go To Details</th>
 
         </tr>
@@ -25,7 +24,7 @@
                 <td>@item.CheckInDate.ToShortDateString()</td>
                 <td>@item.CheckOutDate.ToShortDateString()</td>
                 <td>@item.NumberOfRooms</td>
-                <td>@item.Discount</td>
+                <td>@item.Discount %</td>
                 <td>@(item.DiscountApplied ? "Yes" : "No")</td>
                 <td>@item.BranchName</td>
                 <td>@item.Location</td>

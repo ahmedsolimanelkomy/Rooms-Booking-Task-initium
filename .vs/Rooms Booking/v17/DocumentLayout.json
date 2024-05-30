@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|c:\\users\\ahmed\\desktop\\initium solutions\\task\\new folder\\rooms booking\\views\\booking\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|solutionrelative:views\\booking\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|c:\\users\\ahmed\\desktop\\initium solutions\\task\\new folder\\rooms booking\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|c:\\users\\ahmed\\desktop\\initium solutions\\task\\new folder\\rooms booking\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|solutionrelative:views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|c:\\users\\ahmed\\desktop\\initium solutions\\task\\new folder\\rooms booking\\views\\booking\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|solutionrelative:views\\booking\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|c:\\users\\ahmed\\desktop\\initium solutions\\task\\new folder\\rooms booking\\views\\booking\\bookinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|solutionrelative:views\\booking\\bookinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|c:\\users\\ahmed\\desktop\\initium solutions\\task\\new folder\\rooms booking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|c:\\users\\ahmed\\desktop\\initium solutions\\task\\new folder\\rooms booking\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|c:\\users\\ahmed\\desktop\\initium solutions\\task\\new folder\\rooms booking\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|c:\\users\\ahmed\\desktop\\initium solutions\\task\\new folder\\rooms booking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CC453C9-DAD1-4CC3-86D2-3FA57CB6FAEA}|Rooms Booking.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,34 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Views\\Booking\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Booking\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Views\\Booking\\Create.cshtml",
-              "RelativeToolTip": "Views\\Booking\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-30T07:39:47.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-30T07:38:18.45Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -68,41 +42,68 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Views\\Booking\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Views\\Booking\\Details.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T14:34:34.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "BookingList.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Views\\Booking\\BookingList.cshtml",
               "RelativeDocumentMoniker": "Views\\Booking\\BookingList.cshtml",
               "ToolTip": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Views\\Booking\\BookingList.cshtml",
               "RelativeToolTip": "Views\\Booking\\BookingList.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAbAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T17:44:29.939Z",
+              "WhenOpened": "2024-05-30T14:32:54.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Views\\Booking\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Booking\\Details.cshtml",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Views\\Booking\\Details.cshtml",
-              "RelativeToolTip": "Views\\Booking\\Details.cshtml",
-              "ViewState": "AQIAABwAAAAANDMzMzMLwCkAAACBAAAA",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T17:39:35.764Z",
+              "WhenOpened": "2024-05-30T14:12:55.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAACAZmZmZmYkwCkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T14:12:28.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "BookingController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
               "ToolTip": "C:\\Users\\ahmed\\Desktop\\Initium Solutions\\Task\\New folder\\Rooms Booking\\Controllers\\BookingController.cs",
               "RelativeToolTip": "Controllers\\BookingController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T11:41:21.398Z"
+              "WhenOpened": "2024-05-29T11:41:21.398Z",
+              "EditorCaption": ""
             }
           ]
         }
